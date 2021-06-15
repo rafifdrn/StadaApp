@@ -23,7 +23,7 @@ Part of codes that is responsible for controlling how the hardware interacts are
 - `captureImage()` is used for as the name suggests, capture image.
 - `handle_send()` is used to call sendImage() and make sure that there is no problem while connecting.
 - `sendImage()` is used for as the name suggests, sending image to the server. Note that for now it is empty.
-- `dump_waste(0` is used to call `moveServo()` and make sure that there is no problem while moving the servo.
+- `dump_waste(` is used to call `moveServo()` and make sure that there is no problem while moving the servo.
 - `moveServo()` is used to move servo from the initial position `startpos` to the final position `finalpos` and back.
 
 
